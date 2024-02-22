@@ -110,7 +110,7 @@ The use of the term `n-1` is commonly referred to as Bessel's correction. Note, 
 ## Usage
 
 ```javascript
-import dvarmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dvarmtk@esm/index.mjs';
+import dvarmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dvarmtk@v0.2.1-esm/index.mjs';
 ```
 
 #### dvarmtk( N, mean, correction, x, stride )
@@ -224,7 +224,7 @@ var v = dvarmtk.ndarray( N, 1.25, 1, x, 2, 1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
-import dvarmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dvarmtk@esm/index.mjs';
+import dvarmtk from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dvarmtk@v0.2.1-esm/index.mjs';
 
 var x;
 var i;
