@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-02)
+## Unreleased (2025-01-06)
+
+<section class="features">
+
+### Features
+
+-   [`b137c53`](https://github.com/stdlib-js/stdlib/commit/b137c532efabf2080905abf6f4f6673e365bc0d3) - add C ndarray interface and refactor implementation for `stats/base/dvarmtk` [(#4541)](https://github.com/stdlib-js/stdlib/pull/4541)
+
+</section>
+
+<!-- /.features -->
 
 <section class="commits">
 
@@ -12,7 +22,8 @@
 
 <details>
 
--   [`ece293d`](https://github.com/stdlib-js/stdlib/commit/ece293d0f45008ac7ee820dd220d60b37c5269ea) - **refactor:** update `stats/base/dvarmtk` native addon from C++ to C [(#4407)](https://github.com/stdlib-js/stdlib/pull/4407) _(by Vivek maurya)_
+-   [`b137c53`](https://github.com/stdlib-js/stdlib/commit/b137c532efabf2080905abf6f4f6673e365bc0d3) - **feat:** add C ndarray interface and refactor implementation for `stats/base/dvarmtk` [(#4541)](https://github.com/stdlib-js/stdlib/pull/4541) _(by Aayush Khanna)_
+-   [`ece293d`](https://github.com/stdlib-js/stdlib/commit/ece293d0f45008ac7ee820dd220d60b37c5269ea) - **refactor:** update `stats/base/dvarmtk` native addon from C++ to C [(#4407)](https://github.com/stdlib-js/stdlib/pull/4407) _(by Vivek Maurya)_
 -   [`62364f6`](https://github.com/stdlib-js/stdlib/commit/62364f62ea823a3b52c2ad25660ecd80c71f8f36) - **style:** fix C comment alignment _(by Philipp Burckhardt)_
 -   [`9e689ff`](https://github.com/stdlib-js/stdlib/commit/9e689ffcb7c6223afc521f1e574b42f10921cf5e) - **chore:** fix indentation in manifest.json files _(by Philipp Burckhardt)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
@@ -28,11 +39,12 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Athan Reines
 -   Philipp Burckhardt
--   Vivek maurya
+-   Vivek Maurya
 
 </section>
 
